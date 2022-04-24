@@ -1,0 +1,25 @@
+const now = new Date()
+const timestamp = now.getTime()
+console.log(timestamp)
+
+
+const myDate = new Date(timestamp)
+console.log(myDate.getFullYear())
+
+// Date Challenge:
+const past1 = new Date('1 january 1999 11:12:00')
+const past2 = new Date('1 February 2015 11:15:00')
+
+const timestamp1 = past1.getTime()
+const timestamp2 = past2.getTime()
+
+const date1 = new Date(timestamp1)
+const date2 = new Date(timestamp2)
+if (date1 < date2) {
+    console.log(`Year 1 ${date1.getFullYear()} and Year 2 : ${date2.getFullYear()}`)
+
+}else{
+    console.log(`Year 1 ${date1.toString()} and Year 2 : ${date2.toString()}`)
+
+
+}

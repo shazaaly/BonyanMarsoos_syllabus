@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="/images/favicon.png?v1">
+    <title>Todos App</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="header__title">Todo App</h1>
+            <h2 class="header__subtitle">What do you need to do ?</h2>
+        </div>
+
+    </div>
+
+    <!-- <button id="add-todo">Add Todo</button> -->
+    <div class="actions">
+        <div class="actions__container">
+            <input class="input" id="search-todos" type="text">
+
+            <label class="checkbox">
+
+                <input id="check" type="checkbox"> Hide Completed
+            </label>
+            <!-- <select name="" id="select">
+
+                <option value="byEdited">Sort By Edited</option>
+                <option value="byCreated">Sort By Created</option>
+            </select> -->
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="todos">
+
+        </div>
+
+        <form id="todoForm" action="">
+
+            <input class="input" name="text" type="text">
+            <button class="button">Add todo</button>
+        </form>
+
+
+    </div>
+
+
+
+    <script src="scripts/uuid.js"></script>
+
+    <script src="scripts/todo-functions.js"></script>
+    <script src="scripts/todo.js"></script>
+
+</body>
+
+</html>

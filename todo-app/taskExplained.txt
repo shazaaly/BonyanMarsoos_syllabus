@@ -1,0 +1,7 @@
+1-  HTML file
+2-  h1 anf 5 p tags
+3-  server the folder wz live server
+========================================
+
+- create a link to js file from html file
+- Iterate paragraphs and remove p tags containing 'the'

@@ -1,0 +1,8 @@
+
+https://restcountries.com/v3.1/all
+https://www.iso.org/obp/ui/#iso:code:3166:EG
+
+https://ipinfo.io/account/home
+5769c876a42ecf
+
+http://ipinfo.io/json?token=5769c876a42ecf
